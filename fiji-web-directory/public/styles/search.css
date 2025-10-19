@@ -1,0 +1,135 @@
+h1, h2, h3 {
+    font-weight: bold;
+    color: #1E4023;
+}
+
+h2 {
+    margin-top: 40px;
+    border-left: 6px solid #3F7D2D;
+    padding-left: 10px;
+}
+
+/* === Input Fields & Dropdowns === */
+input[type="text"],
+select {
+    padding: 12px 14px;
+    border: 1px solid #c4d6c2;
+    border-radius: 6px;
+    font-size: 16px;
+    margin: 10px 10px 20px 0;
+    background-color: #f9fff6;
+    color: #123524;
+    box-shadow: 0 2px 6px rgba(72, 119, 57, 0.1);
+    transition: all 0.2s ease-in-out;
+}
+
+input[type="text"]:focus,
+select:focus {
+    border-color: #347928;
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(52, 121, 40, 0.2);
+}
+
+/* === Listing Card Enhancements === */
+.listing-items-cols {
+    background: #ffffff;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(52, 121, 40, 0.15);
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    transition: transform 0.2s ease, box-shadow 0.3s ease;
+    max-width: 1000px;
+}
+
+.listing-items-cols:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 18px rgba(52, 121, 40, 0.2);
+}
+
+/* === Listing Image Enhancements === */
+.items-cols-left img {
+    width: 150px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 64, 0, 0.15);
+}
+
+/* === Listing Info Enhancements === */
+.items-cols-mid h3 {
+    margin-top: 0;
+    color: #2B5C2B;
+    font-size: 22px;
+}
+
+.items-cols-mid span {
+    display: inline-block;
+    margin-bottom: 5px;
+    color: #2E4D2E;
+}
+
+.items-cols-mid label {
+    font-weight: bold;
+    color: #3B733B;
+}
+
+/* === Visit Website Button === */
+.items-cols-right a {
+    background: linear-gradient(to right, #4CAF50, #347928);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s ease;
+    box-shadow: 0 2px 6px rgba(52, 121, 40, 0.3);
+}
+
+.items-cols-right a:hover {
+    background: linear-gradient(to right, #3F7D2D, #2b6122);
+}
+
+/* === Search Banner Enhancements === */
+#search-banner-title {
+    font-size: 42px;
+    font-family: 'Georgia', serif;
+    letter-spacing: 1px;
+    color: #DFFFD6;
+}
+
+#search-banner-box {
+    background-color: #2f5f2f !important;
+}
+
+/* === Container Enhancements === */
+#search-container1,
+#search-container2 {
+    padding: 40px 10%;
+    background-color: rgba(255, 255, 255, 0.95);
+    border-left: 8px solid #347928;
+    border-radius: 12px;
+    margin: 40px auto;
+    box-shadow: 0 8px 24px rgba(52, 121, 40, 0.1);
+    max-width: 1200px;
+}
+
+/* === Responsive Listing Cards === */
+@media (max-width: 768px) {
+    .listing-items-cols {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .items-cols-left img {
+        width: 100%;
+        height: auto;
+    }
+
+    .items-cols-right {
+        margin-top: 10px;
+    }
+}

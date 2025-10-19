@@ -1,0 +1,103 @@
+#dashboard-container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #f9fff6;
+    border-left: 6px solid #347928;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(52, 121, 40, 0.1);
+    font-family: 'Helvetica', sans-serif;
+}
+
+#dashboard-container h1 {
+    font-size: 32px;
+    color: #1E4023;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#dashboard-container hr {
+    border: none;
+    height: 2px;
+    background-color: #3F7D2D;
+    width: 80px;
+    margin: 0 auto 30px;
+    border-radius: 2px;
+}
+
+.dashboard-section {
+    margin-bottom: 40px;
+}
+
+.dashboard-section h2 {
+    color: #245e29;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+/* === Form === */
+#profile-form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #2E4D2E;
+}
+
+#profile-form input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 6px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: #ffffff;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.dashboard-btn {
+    padding: 12px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.dashboard-btn:hover {
+    background-color: #3F7D2D;
+}
+
+/* === User Reviews === */
+.user-review {
+    background-color: #ffffff;
+    border-left: 5px solid #3F7D2D;
+    padding: 15px 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 8px rgba(0, 64, 0, 0.05);
+}
+
+.user-review h3 {
+    margin: 0 0 5px;
+    color: #2a4d2a;
+}
+
+.user-review p {
+    margin: 4px 0;
+    color: #333;
+}
+
+/* === Responsive === */
+@media (max-width: 600px) {
+    #dashboard-container {
+        padding: 20px;
+    }
+
+    .dashboard-btn {
+        width: 100%;
+    }
+}
+S

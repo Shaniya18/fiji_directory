@@ -1,0 +1,120 @@
+/* Container for the form */
+#submitlisting-container {
+    max-width: 600px;
+    margin: 40px auto;
+    background-color: #e6f0df; /* light greenish background */
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    font-family: 'Helvetica', sans-serif;
+    color: #123524;
+}
+
+/* Form heading */
+#submitlisting-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 28px;
+}
+
+/* Style the horizontal line */
+#submitlisting-container hr {
+    border: 1px solid #347928;
+    margin-bottom: 30px;
+}
+
+/* Labels */
+#submitlisting-container label {
+    font-weight: 600;
+    display: block;
+    margin-bottom: 6px;
+    font-size: 18px;
+}
+
+/* Input fields and textarea */
+#submitlisting-container input[type="text"],
+#submitlisting-container textarea,
+#submitlisting-container select {
+    width: 100%;
+    padding: 10px 15px;
+    border: 2px solid #347928;
+    border-radius: 6px;
+    font-size: 16px;
+    box-sizing: border-box;
+    font-family: 'Helvetica', sans-serif;
+    color: #123524;
+    transition: border-color 0.3s ease;
+}
+
+#submitlisting-container input[type="text"]:focus,
+#submitlisting-container textarea:focus,
+#submitlisting-container select:focus {
+    outline: none;
+    border-color: #1E0342;
+    background-color: #f0f8ff;
+}
+
+/* Textarea resize disabled */
+#submitlisting-container textarea {
+    resize: none;
+    min-height: 120px;
+}
+
+/* Checkbox label styling */
+#submitlisting-container label[for="captcha-checkbox"] {
+    font-weight: normal;
+    display: inline-block;
+    margin-left: 8px;
+    vertical-align: middle;
+    font-size: 16px;
+}
+
+/* Checkbox size and spacing */
+#captcha-checkbox {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+/* Submit and Reset buttons */
+.submitwebsite-btns {
+    background-color: #347928;
+    border: none;
+    color: white;
+    padding: 12px 25px;
+    margin: 10px 8px 0 0;
+    border-radius: 6px;
+    font-size: 17px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: 'Helvetica', sans-serif;
+}
+
+.submitwebsite-btns:hover {
+    background-color: #1E0342;
+}
+
+/* Spacing between form elements */
+#submitlisting-container input,
+#submitlisting-container textarea,
+#submitlisting-container select,
+#submitlisting-container label {
+    margin-bottom: 15px;
+}
+
+/* Fix duplicate IDs for selects by targeting their position */
+#submitlisting-container select:nth-of-type(1) { /* Category */
+    margin-bottom: 15px;
+}
+
+#submitlisting-container select:nth-of-type(2) { /* Subcategory */
+    margin-bottom: 15px;
+}
+
+#submitlisting-container select:nth-of-type(3) { /* Region */
+    margin-bottom: 20px;
+}
+
+

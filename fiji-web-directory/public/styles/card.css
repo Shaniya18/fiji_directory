@@ -1,0 +1,87 @@
+/* Heading Style */
+.in h1 {
+    font-size: 30px;
+    color: #1B5E20; /* Dark green */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+/* Section Styling */
+.team {
+    text-align: center;
+    padding: 3rem 1rem;
+    background-color: white;
+}
+
+.team h1 {
+    font-size: 2rem;
+    color: #1B5E20;
+    margin-bottom: 2rem;
+}
+
+/* Card Container */
+.team-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+/* Individual Card */
+.team-card {
+    background-color: #A5D6A7; /* Soft green */
+    border: 1px solid #C8E6C9; /* Light green border */
+    border-radius: 8px;
+    width: 400px;
+    padding: 2rem;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); 
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Hover Effect */
+.team-card:hover {
+    background-color: #2E7D32; /* Dark green on hover */
+    color: white;
+}
+
+.team-card:hover h3,
+.team-card:hover p {
+    color: white;
+}
+
+/* Image Styling */
+.team-card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-bottom: 1rem;
+}
+
+/* Card Title */
+.team-card h3 {
+    font-size: 1.5rem;
+    color: #1B5E20;
+    margin-bottom: 0.5rem;
+}
+
+/* Card Description */
+.team-card p {
+    font-size: 1.1rem;
+    color: #33691E;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .team-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .team-card {
+        width: 90%;
+        margin-bottom: 2rem;
+    }
+}

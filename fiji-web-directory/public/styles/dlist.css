@@ -1,0 +1,114 @@
+/* === Listing Container === */
+#listing-container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #f9fff6;
+    border-left: 6px solid #3F7D2D;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(52, 121, 40, 0.1);
+}
+
+/* === Business Info === */
+#listing-container h1 {
+    font-size: 32px;
+    color: #1E4023;
+    margin-bottom: 10px;
+}
+
+.listing-description {
+    font-size: 18px;
+    color: #3B3B3B;
+    line-height: 1.6;
+}
+
+.listing-link {
+    margin: 15px 0;
+    font-size: 16px;
+}
+
+.listing-link a {
+    color: #347928;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.listing-link a:hover {
+    text-decoration: underline;
+}
+
+/* === Map === */
+.map-container {
+    margin: 30px 0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 64, 0, 0.2);
+}
+
+/* === Reviews === */
+#reviews-section h2 {
+    margin-top: 40px;
+    font-size: 24px;
+    color: #2A532A;
+    margin-bottom: 15px;
+}
+
+.review {
+    background-color: #ffffff;
+    padding: 15px 20px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border-left: 5px solid #3F7D2D;
+    box-shadow: 0 2px 6px rgba(0, 64, 0, 0.05);
+}
+
+/* === Review Form === */
+#review-form-section {
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 2px solid #e0e0e0;
+}
+
+#review-form-section h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #2b5c2b;
+}
+
+#review-form label {
+    display: block;
+    margin: 8px 0 4px;
+    font-weight: bold;
+    color: #2a4d2a;
+}
+
+#review-form select,
+#review-form textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    background-color: #ffffff;
+    margin-bottom: 12px;
+    box-shadow: inset 0 1px 3px rgba(0,0,0,0.05);
+}
+
+.submit-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: #3F7D2D;
+}
+
+#login-prompt {
+    font-size: 14px;
+    margin-top

@@ -1,0 +1,34 @@
+.department {
+    display: block; 
+    text-decoration: none; /* Removes the stupid underline */
+    background-color: #4CAF50; /* Main green background */
+    border: 1px solid #7CCB87; /* Light green border */
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.department h2 {
+    color: black;
+    margin-bottom: 0.5rem;
+}
+
+.department h3 {
+    color: black;
+    margin-bottom: 0.5rem;
+}
+
+.department p {
+    font-size: 1rem;
+    color: white;
+}
+
+.department:hover {
+    background-color: #388E3C; /* Darker green on hover */
+    color: white;
+}
+
+.department:hover h3,
+.department:hover p {
+    color: whitesmoke;
+}

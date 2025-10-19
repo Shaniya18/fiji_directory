@@ -1,0 +1,134 @@
+/* ---------- Intro Section ---------- */
+.intro {
+    width: 90%;
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #e8f5e9; /* soft green background */
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(76, 175, 80, 0.15);
+    color: #2e7d32;
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+.intro p {
+    margin-bottom: 20px;
+}
+
+/* ---------- Call-to-Action Section ---------- */
+.cta-section {
+    width: 90%;
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #4caf50;
+    color: white;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(46, 125, 50, 0.25);
+}
+
+.cta-section h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.cta-section p {
+    font-size: 1.1rem;
+    margin-bottom: 25px;
+}
+
+.cta-section a.cta-button {
+    background-color: white;
+    color: #4caf50;
+    padding: 14px 28px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.cta-section a.cta-button:hover {
+    background-color: #e8f5e9;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(46, 125, 50, 0.3);
+}
+
+/* ---------- Page Banner Enhancements ---------- */
+#page-banner-container {
+    height: 80vh; /* slightly smaller for better scroll */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.95;
+    padding: 0 5%;
+    box-sizing: border-box;
+}
+
+#page-banner-box {
+    background-color: rgba(52, 121, 40, 0.9); /* semi-transparent green overlay */
+    padding: 40px 50px;
+    border-radius: 12px;
+    max-width: 90%;
+    width: 450px;
+    text-align: center;
+    color: white;
+}
+
+/* Banner title */
+#page-banner-box h1 {
+    font-size: 2.8rem;
+    margin-bottom: 15px;
+}
+
+/* Banner separator */
+#page-banner-box hr {
+    height: 4px;
+    background-color: #a4d97a;
+    border: none;
+    width: 60px;
+    margin: 0 auto;
+    border-radius: 2px;
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 768px) {
+    #page-banner-box {
+        padding: 30px 25px;
+    }
+
+    #page-banner-box h1 {
+        font-size: 2rem;
+    }
+
+    .intro {
+        padding: 25px;
+        font-size: 1rem;
+    }
+
+    .cta-section {
+        padding: 25px;
+    }
+
+    .cta-section h2 {
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .intro, .cta-section {
+        width: 95%;
+        padding: 20px;
+    }
+
+    .cta-section h2 {
+        font-size: 1.6rem;
+    }
+
+    .cta-section a.cta-button {
+        padding: 12px 22px;
+    }
+}
